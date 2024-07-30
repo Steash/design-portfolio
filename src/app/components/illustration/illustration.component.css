@@ -1,0 +1,39 @@
+.illustration-container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 100%;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.column-1 {
+    width: 38%;
+}
+
+.column-2 {
+    width: 28%;
+}
+
+.column-3 {
+    width: 34%;
+}
+
+.grey-placeholder {
+    background-color: rgb(156, 156, 156);
+    min-height: 300px;
+}
+
+.grey-placeholder-2 {
+    background-color: rgb(156, 156, 156);
+    min-height: 600px;
+}
+
+.grey-placeholder-3 {
+    background-color: rgb(156, 156, 156);
+    min-height: 350px; 
+}
