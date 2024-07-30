@@ -1,0 +1,36 @@
+.about-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.about-item {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    /* width: 100%; */
+}
+
+.grey-placeholder {
+    /* width: 1800px; */
+    width: 45%;
+    height: 500px;
+    /* aspect-ratio: 16 / 9; */
+    background-color: rgb(156, 156, 156);
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+}
+
+.title {
+    margin: 0;
+    position: relative;
+    top: -7px;
+}
+
+.description {
+    margin: 0;
+}
