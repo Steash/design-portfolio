@@ -1,14 +1,13 @@
 .illustration-container {
     display: flex;
     flex-direction: row;
-    gap: 15px;
-    width: 100%;
+    gap: var(--default-padding);
 }
 
 .column {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: var(--default-padding);
 }
 
 .column-1 {

@@ -1,27 +1,13 @@
 <app-navbar/>
 
- <div class="design-container">
-    <div class="design-item">
-        <div class="grey-placeholder"></div>
-        <div class="column">
-            <h1 class="title">Title Work</h1>
-            <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, atque totam? Sequi voluptas natus necessitatibus, ex labore cupiditate, magni provident maxime qui iste id ipsa praesentium cumque vel blanditiis porro!</p>
+<div class="design-container wrapper">
+    @for (design of designs; track $index) {
+        <div class="design-item">
+            <div class="grey-placeholder"></div>
+            <div class="column">
+                <h1 class="title">{{ design.title }}</h1>
+                <p class="description">{{ design.description }}</p>
+            </div>
         </div>
-    </div>
-
-    <div class="design-item">
-        <div class="grey-placeholder"></div>
-        <div class="column">
-            <h1 class="title">Title Work</h1>
-            <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, atque totam? Sequi voluptas natus necessitatibus, ex labore cupiditate, magni provident maxime qui iste id ipsa praesentium cumque vel blanditiis porro!</p>
-        </div>
-    </div>
-
-    <div class="design-item">
-        <div class="grey-placeholder"></div>
-        <div class="column">
-            <h1 class="title">Title Work</h1>
-            <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, atque totam? Sequi voluptas natus necessitatibus, ex labore cupiditate, magni provident maxime qui iste id ipsa praesentium cumque vel blanditiis porro!</p>
-        </div>
-    </div>
+    }
  </div>

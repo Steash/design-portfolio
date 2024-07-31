@@ -1,8 +1,12 @@
 .navbar {
     display: flex;
     justify-content: space-between;
-    margin: 10px 0 60px;
-    gap: 10px;
+    padding-top: var(--default-padding);
+    padding-bottom: 60px;
+    padding-left: var(--default-padding);
+    padding-right: var(--default-padding);
+    gap: var(--default-padding);
+    
 }
 
 .nav-item {
