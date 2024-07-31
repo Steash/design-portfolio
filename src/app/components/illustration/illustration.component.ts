@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
 import { NavbarComponent } from '../shared/navbar/navbar.component';
 import { Illustration } from '../../models/illustration.model';
+import { FooterComponent } from '../shared/footer/footer.component';
 
 @Component({
   selector: 'app-illustration',
   standalone: true,
-  imports: [NavbarComponent],
+  imports: [NavbarComponent, FooterComponent],
   templateUrl: './illustration.component.html',
   styleUrl: './illustration.component.css'
 })
