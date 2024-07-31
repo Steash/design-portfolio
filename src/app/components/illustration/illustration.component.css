@@ -36,3 +36,21 @@
     background-color: rgb(156, 156, 156);
     min-height: 350px; 
 }
+
+@media only screen and (max-width: 600px) {
+    .illustration-container {
+        flex-direction: column;
+    }
+
+    .column-1 {
+        width: 100%;
+    }
+    
+    .column-2 {
+        width: 100%;
+    }
+    
+    .column-3 {
+        width: 100%;
+    }
+}
