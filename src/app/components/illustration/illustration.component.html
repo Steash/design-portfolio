@@ -1,19 +1,42 @@
-<app-navbar/>
+<app-navbar />
 
-<div class="illustration-container">
+<div class="illustration-container wrapper">
     <div class="column column-1">
-        <div class="grey-placeholder"></div>
-        <div class="grey-placeholder-2"></div>
-
+        @for (illustration of columnOneIllustrations; track $index) {
+            <div class="carousel">
+                @for (imageUrl of illustration.imageGroup; track $index) {
+                    <div class="carousel-item w-full">
+                        <img [src]="imageUrl" class="w-full"
+                            alt="Tailwind CSS Carousel component" />
+                    </div>
+                }
+            </div>
+        }
     </div>
-
+    
     <div class="column column-2">
-        <div class="grey-placeholder-2"></div>
-        <div class="grey-placeholder"></div>
+        @for (illustration of columnTwoIllustrations; track $index) {
+            <div class="carousel">
+                @for (imageUrl of illustration.imageGroup; track $index) {
+                    <div class="carousel-item w-full">
+                        <img [src]="imageUrl" class="w-full"
+                            alt="Tailwind CSS Carousel component" />
+                    </div>
+                }
+            </div>
+        }
     </div>
 
     <div class="column column-3">
-        <div class="grey-placeholder-3"></div>
-        <div class="grey-placeholder"></div>
+        @for (illustration of columnThreeIllustrations; track $index) {
+            <div class="carousel">
+                @for (imageUrl of illustration.imageGroup; track $index) {
+                    <div class="carousel-item w-full">
+                        <img [src]="imageUrl" class="w-full"
+                            alt="Tailwind CSS Carousel component" />
+                    </div>
+                }
+            </div>
+        }
     </div>
 </div>
