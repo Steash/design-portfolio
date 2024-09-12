@@ -2,20 +2,18 @@
 
 <div class="illustration-container wrapper">
     <div class="column column-1">
-        @for (illustration of columnOneIllustrations; track $index) {
-            <div class="carousel">
-                @for (imageUrl of illustration.imageGroup; track $index) {
-                    <div class="carousel-item w-full">
-                        <img [src]="imageUrl" class="w-full"
-                            alt="Tailwind CSS Carousel component" />
-                    </div>
-                }
-            </div>
+        @for (imageUrl of columnOneIllustrations; track $index) {
+            <img [src]="imageUrl" class="w-full"
+                alt="Tailwind CSS Carousel component" />
         }
     </div>
     
     <div class="column column-2">
-        @for (illustration of columnTwoIllustrations; track $index) {
+        @for (imageUrl of columnTwoIllustrations; track $index) {
+            <img [src]="imageUrl" class="w-full"
+                alt="Tailwind CSS Carousel component" />
+        }
+        <!-- @for (illustration of columnTwoIllustrations; track $index) {
             <div class="carousel">
                 @for (imageUrl of illustration.imageGroup; track $index) {
                     <div class="carousel-item w-full">
@@ -24,11 +22,15 @@
                     </div>
                 }
             </div>
-        }
+        } -->
     </div>
 
     <div class="column column-3">
-        @for (illustration of columnThreeIllustrations; track $index) {
+        @for (imageUrl of columnThreeIllustrations; track $index) {
+            <img [src]="imageUrl" class="w-full"
+                alt="Tailwind CSS Carousel component" />
+        }
+        <!-- @for (illustration of columnThreeIllustrations; track $index) {
             <div class="carousel">
                 @for (imageUrl of illustration.imageGroup; track $index) {
                     <div class="carousel-item w-full">
@@ -37,7 +39,7 @@
                     </div>
                 }
             </div>
-        }
+        } -->
     </div>
 </div>
 
