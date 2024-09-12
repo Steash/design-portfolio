@@ -1,3 +1,4 @@
 export interface Illustration {
-    imageGroup: string[];
+    // imageGroup: string[];
+    imageUrl: string;
 }
