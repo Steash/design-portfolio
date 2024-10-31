@@ -8,31 +8,30 @@
     display: flex;
     flex-direction: row;
     gap: 20px;
-
-    @media only screen and (max-width: 992px) {
-        flex-direction: column;
-    }
 }
 
 .grey-placeholder {
     width: 72%;
-    aspect-ratio: 2000/1333;
+}
 
-    @media only screen and (max-width: 992px) {
-        width: 100%;
-    }
+.carousel-item {
+    position: relative;
+    width: 100%;
+    padding-top: 66.65%; 
+}
+
+.carousel-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
 
 .column {
     display: flex;
     flex-direction: column;
     width: 35%;
-
-    @media only screen and (max-width: 992px) {
-        width: 100%;
-
-        margin-bottom: 50px;
-    }
 }
 
 .title {
@@ -44,4 +43,20 @@
 .description {
     margin: 0;
 }
+
+@media only screen and (max-width: 992px) {
+    .design-item {
+        flex-direction: column;
+    }
+
+    .grey-placeholder {
+        width: 100%;
+    }
+
+    .column {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+}
+
 
