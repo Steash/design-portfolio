@@ -6,11 +6,22 @@
     padding-left: var(--default-padding);
     padding-right: var(--default-padding);
     gap: var(--default-padding);
-    
+}
+
+@media only screen and (min-width: 100px) {
+    .nav-item {
+        font-size: 0.6em;
+    }
+}
+
+@media only screen and (min-width: 230px) {
+    .nav-item {
+        font-size: 0.8em;
+    }
 }
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 400px) {
     .nav-item {
         font-size: 1.2em;
     }
