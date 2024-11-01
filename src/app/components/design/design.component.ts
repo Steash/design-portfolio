@@ -125,7 +125,7 @@ export class DesignComponent {
         '/images/09-HKU-Fashion-And-Design-Graduation-Show/hku-gradshow-02.jpg',
         '/images/09-HKU-Fashion-And-Design-Graduation-Show/hku-gradshow-03.jpg',
         '/images/09-HKU-Fashion-And-Design-Graduation-Show/hku-gradshow-04.jpg',
-        '/images/09-HKU-Fashion-And-Design-Graduation-Show/hku-gradshow-05.jpg',
+        '/images/09-HKU-Fashion-And-Design-Graduation-Show/hku-gradshow-05.gif',
         '/images/09-HKU-Fashion-And-Design-Graduation-Show/hku-gradshow-06.jpg',
         '/images/09-HKU-Fashion-And-Design-Graduation-Show/hku-gradshow-07.jpg',
         '/images/09-HKU-Fashion-And-Design-Graduation-Show/hku-gradshow-08.jpg',
