@@ -31,3 +31,17 @@
 .description {
     margin: 0;
 }
+
+@media only screen and (max-width: 600px) {
+    .about-item {
+        flex-direction: column;
+    }
+
+    .grey-placeholder {
+        width: 100%;
+    }
+    
+    .column {
+        width: 100%;
+    }
+}
