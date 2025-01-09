@@ -43,7 +43,7 @@ export class DesignComponent {
     {
       id: 3,
       title: 'CCTV in Buikslotermeerplein',
-      description: `To increase security and to combat nuisance in public space, the municipality has taken a number of measures <br><br> including the use of CCTV. There are 18 camera areas in Amsterdam, one of them is Buikslotermeerplein. The <br><br> cameras give police and enforcement an ‘extra eyes’ in the city. Many residents have reported to feel safer with <br><br> CCTV, even if it means they must give up their privacy. There is a total of 68 CCTV in Buikslotermeerplein, I captured them all and provided each with the exact location.`,
+      description: `To increase security and to combat nuisance in public space, the municipality has taken a number of measures including the use of CCTV. There are 18 camera areas in Amsterdam, one of them is Buikslotermeerplein. The cameras give police and enforcement an ‘extra eyes’ in the city. Many residents have reported to feel safer with CCTV, even if it means they must give up their privacy. <br><br> There is a total of 68 CCTV in Buikslotermeerplein, I captured them all and provided each with the exact location.`,
       imageGroup: [
         '/images/03-CCTV-in-Buikslotermeerplein/cctvbuikslotermeerplein01.jpg',
         '/images/03-CCTV-in-Buikslotermeerplein/cctvbuikslotermeerplein02.jpg',

@@ -11,15 +11,13 @@
 }
 
 .grey-placeholder {
-    width: 45%;
-    height: 500px;
-    background-color: rgb(156, 156, 156);
+    width: 35%;
 }
 
 .column {
     display: flex;
     flex-direction: column;
-    width: 55%;
+    width: 65%;
 }
 
 .title {
@@ -32,7 +30,17 @@
     margin: 0;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1400px) {
+    .grey-placeholder {
+        width: 40%;
+    }
+    
+    .column {
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 750px) {
     .about-item {
         flex-direction: column;
     }
