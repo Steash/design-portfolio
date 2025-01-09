@@ -1,11 +1,18 @@
 .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
     display: flex;
     justify-content: space-between;
-    padding-top: var(--default-padding);
+    padding: var(--default-padding);
+    /* padding-top: var(--default-padding);
     padding-bottom: 60px;
     padding-left: var(--default-padding);
-    padding-right: var(--default-padding);
+    padding-right: var(--default-padding); */
     gap: var(--default-padding);
+    background-color: white;
 }
 
 @media only screen and (min-width: 100px) {
