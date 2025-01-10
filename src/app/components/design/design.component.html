@@ -3,13 +3,17 @@
 <div class="design-container wrapper">
     @for (design of designs; track $index) {
     <div class="design-item">
-        <div class="carousel grey-placeholder">
+        <swiper-container class="carousel grey-placeholder"
+            loop="true" 
+            navigation="true"
+            speed="500" 
+        >
             @for (imageUrl of design.imageGroup; track $index) {
-            <div class="carousel-item">
+            <swiper-slide class="carousel-item">
                 <img [src]="imageUrl" class="carousel-image" alt="carousel-image" />
-            </div>
+            </swiper-slide>
             }
-        </div>
+        </swiper-container>
         <div class="column">
             <h1 class="title">{{ design.title }}</h1>
             <p class="description" [innerHTML]="design.description"></p>

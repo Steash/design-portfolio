@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { NavbarComponent } from '../shared/navbar/navbar.component';
 import { FooterComponent } from '../shared/footer/footer.component';
 import { Design } from '../../models/design.model';
@@ -8,7 +8,8 @@ import { Design } from '../../models/design.model';
   standalone: true,
   imports: [NavbarComponent, FooterComponent],
   templateUrl: './design.component.html',
-  styleUrl: './design.component.css'
+  styleUrl: './design.component.css',
+  schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
 export class DesignComponent {
   designs: Design[] = [
