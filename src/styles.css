@@ -5,6 +5,7 @@
 
 :root {
     --default-padding: 15px;
+    --swiper-navigation-color: #fff;
 }
 
 body {
