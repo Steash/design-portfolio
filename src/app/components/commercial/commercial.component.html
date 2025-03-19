@@ -1,9 +1,7 @@
-<app-navbar />
-
-<div class="commercial-container wrapper">
-    <p>commercial works!</p>
-
+<div class="pdf-container">
+    <iframe 
+      [src]="pdfUrl | safe" 
+      class="pdf-iframe" 
+      frameborder="0">
+    </iframe>
 </div>
-
-<app-footer/>
-

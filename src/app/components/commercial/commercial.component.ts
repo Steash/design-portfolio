@@ -1,14 +1,16 @@
 import { Component } from '@angular/core';
-import { FooterComponent } from '../shared/footer/footer.component';
-import { NavbarComponent } from '../shared/navbar/navbar.component';
+import { SafePipe } from '../../pipes/safe.pipe';
 
 @Component({
   selector: 'app-commercial',
   standalone: true,
-  imports: [NavbarComponent, FooterComponent],
+  imports: [SafePipe],
   templateUrl: './commercial.component.html',
   styleUrl: './commercial.component.css'
 })
 export class CommercialComponent {
+  pdfUrl: string = 'pdfs/commercial-works.pdf'
 
+  constructor(
+  ) {}
 }

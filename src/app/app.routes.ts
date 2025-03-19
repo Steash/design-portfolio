@@ -14,7 +14,7 @@ export const routes: Routes = [
     loadComponent: () => import('./components/about/about.component').then(m => m.AboutComponent)
   },
   {
-    path: 'commercial',
+    path: 'commercialworks',
     loadComponent: () => import('./components/commercial/commercial.component').then(m => m.CommercialComponent)
   },
   
