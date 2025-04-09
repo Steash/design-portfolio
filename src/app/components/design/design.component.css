@@ -38,6 +38,7 @@
     margin: 0;
     position: relative;
     top: -7px;
+    line-height: 1.2;
 }
 
 .description {
